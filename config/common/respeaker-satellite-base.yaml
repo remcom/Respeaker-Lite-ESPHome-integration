@@ -1325,30 +1325,35 @@ external_components:
       url: https://github.com/esphome/esphome
       ref: 0fe230114c80b6d3378f04c777baadee178e40ad
     components: [mixer]
+    refresh: 60s
   - source:
       # https://github.com/esphome/esphome/pull/12254
       type: git
       url: https://github.com/esphome/esphome
       ref: 1ab4b990092ae063a16cb1511a188c536fdb336e
     components: [resampler]
+    refresh: 60s
   - source:
       # https://github.com/esphome/esphome/pull/12256
       type: git
       url: https://github.com/esphome/esphome
       ref: 047ba60f01af84513f8d5aabaa2a53074facee8f
     components: [audio]
+    refresh: 60s
   - source:
       # https://github.com/esphome/esphome/pull/12258
       type: git
       url: https://github.com/esphome/esphome
       ref: bff22983a390352360796f8e1363127e0cd1f898
     components: [media_player]
+    refresh: 60s
   - source:
       # https://github.com/esphome/esphome/pull/12284
       type: git
       url: https://github.com/esphome/esphome
       ref: aef3a4afd9c7186751fc9d097742325b3390572f
     components: [mdns, sendspin]
+    refresh: 60s
   - source:
       # https://github.com/esphome/esphome/pull/12429
       type: git
@@ -1356,6 +1361,7 @@ external_components:
       ref: f5c1a8111df78e32d07d7a7bb800018808cdc0e7
     refresh: 0s
     components: [file, http_request, media_source, speaker_source]
+    refresh: 60s
 
 audio_dac:
   - platform: aic3204
